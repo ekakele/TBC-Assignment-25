@@ -60,8 +60,6 @@ struct UserProfileView: View {
                         TextField("", text: $nameFieldText)
                             .padding(EdgeInsets(top: 16, leading: 15, bottom: 16, trailing: 15))
                             .frame(width: 342, height: 44)
-                        
-                        
                             .background(
                                 RoundedRectangle(cornerRadius: 6)
                                     .stroke(Color(red: 0.33, green: 0.3, blue: 0.3).opacity(0.14), lineWidth: 1)
@@ -85,8 +83,6 @@ struct UserProfileView: View {
                         TextField("", text: $emailTextField)
                             .padding(EdgeInsets(top: 16, leading: 15, bottom: 16, trailing: 15))
                             .frame(width: 342, height: 44)
-                        
-                        
                             .background(
                                 RoundedRectangle(cornerRadius: 6)
                                     .stroke(Color(red: 0.33, green: 0.3, blue: 0.3).opacity(0.14), lineWidth: 1)
@@ -112,8 +108,6 @@ struct UserProfileView: View {
                         SecureField("", text: $passwordTextField)
                             .padding(EdgeInsets(top: 16, leading: 15, bottom: 16, trailing: 15))
                             .frame(width: 342, height: 44)
-                        
-                        
                             .background(
                                 RoundedRectangle(cornerRadius: 6)
                                     .stroke(Color(red: 0.33, green: 0.3, blue: 0.3).opacity(0.14), lineWidth: 1)
@@ -137,8 +131,6 @@ struct UserProfileView: View {
                         TextField("", text: $birthDateTextField)
                             .padding(EdgeInsets(top: 16, leading: 15, bottom: 16, trailing: 15))
                             .frame(width: 342, height: 44)
-                        
-                        
                             .background(
                                 RoundedRectangle(cornerRadius: 6)
                                     .stroke(Color(red: 0.33, green: 0.3, blue: 0.3).opacity(0.14), lineWidth: 1)
@@ -162,8 +154,6 @@ struct UserProfileView: View {
                         TextField("", text: $countryTextField)
                             .padding(EdgeInsets(top: 16, leading: 15, bottom: 16, trailing: 15))
                             .frame(width: 342, height: 44)
-                        
-                        
                             .background(
                                 RoundedRectangle(cornerRadius: 6)
                                     .stroke(Color(red: 0.33, green: 0.3, blue: 0.3).opacity(0.14), lineWidth: 1)

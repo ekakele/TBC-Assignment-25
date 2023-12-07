@@ -11,6 +11,8 @@
 		B594A04C2B20CE73003B8ABB /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594A04B2B20CE73003B8ABB /* UserProfileView.swift */; };
 		B594A04E2B20CE78003B8ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B594A04D2B20CE78003B8ABB /* Assets.xcassets */; };
 		B594A0512B20CE78003B8ABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B594A0502B20CE78003B8ABB /* Preview Assets.xcassets */; };
+		B594A0582B211ED3003B8ABB /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594A0572B211ED3003B8ABB /* ChatListView.swift */; };
+		B594A05C2B21225D003B8ABB /* ChatListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594A05B2B21225D003B8ABB /* ChatListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B594A04B2B20CE73003B8ABB /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		B594A04D2B20CE78003B8ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B594A0502B20CE78003B8ABB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B594A0572B211ED3003B8ABB /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		B594A05B2B21225D003B8ABB /* ChatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				B594A0492B20CE73003B8ABB /* Assignment_25App.swift */,
-				B594A04B2B20CE73003B8ABB /* UserProfileView.swift */,
+				B594A0592B21221D003B8ABB /* UserProfile */,
+				B594A05A2B21222B003B8ABB /* ChatList */,
 				B594A04D2B20CE78003B8ABB /* Assets.xcassets */,
 				B594A04F2B20CE78003B8ABB /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				B594A0502B20CE78003B8ABB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B594A0592B21221D003B8ABB /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				B594A04B2B20CE73003B8ABB /* UserProfileView.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		B594A05A2B21222B003B8ABB /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				B594A05B2B21225D003B8ABB /* ChatListViewModel.swift */,
+				B594A0572B211ED3003B8ABB /* ChatListView.swift */,
+			);
+			path = ChatList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B594A04C2B20CE73003B8ABB /* UserProfileView.swift in Sources */,
+				B594A0582B211ED3003B8ABB /* ChatListView.swift in Sources */,
+				B594A05C2B21225D003B8ABB /* ChatListViewModel.swift in Sources */,
 				B594A04A2B20CE73003B8ABB /* Assignment_25App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
